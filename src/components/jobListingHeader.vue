@@ -3,7 +3,7 @@
 
 <template>
   <!-- Header background section -->
-  <section class="container mx-auto absolute left-0 top-0 right-0 max-w-full h-[200px] bg-desaturated-dark-cyan bg-no-repeat bg-right bg-cover" style="background-image: url('./assets/bg-header-desktop.svg');">
+  <section class="container mx-auto absolute left-0 top-0 right-0 max-w-full h-[200px] bg-desaturated-dark-cyan bg-no-repeat bg-right bg-cover" style="background-image: url('@/assets/bg-header-desktop.svg');">
   </section>
 
   <!-- Filters section -->
