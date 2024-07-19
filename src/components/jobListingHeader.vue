@@ -108,7 +108,7 @@ export default {
   },
   created() {
     // Fetch jobs data from JSON file
-    fetch('./src/data.json')
+    fetch('./data.json')
       .then(response => response.json())
       .then(data => {
         this.jobs = data.sort((a, b) => b.featured - a.featured);
